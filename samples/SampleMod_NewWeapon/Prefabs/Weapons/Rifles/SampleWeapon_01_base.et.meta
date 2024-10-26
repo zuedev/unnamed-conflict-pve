@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

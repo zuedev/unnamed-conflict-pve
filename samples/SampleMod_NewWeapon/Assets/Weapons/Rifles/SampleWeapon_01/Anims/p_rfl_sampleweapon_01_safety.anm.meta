@@ -1,0 +1,18 @@
+MetaFileClass {
+ Name "{7C7C94FAB2D52EC5}Assets/Weapons/Rifles/SampleWeapon_01/Anims/p_rfl_sampleweapon_01_safety.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourceProfile "502_IK_RightHand"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+ }
+}

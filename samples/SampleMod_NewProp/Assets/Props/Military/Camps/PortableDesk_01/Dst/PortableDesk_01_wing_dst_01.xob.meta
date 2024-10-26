@@ -1,0 +1,89 @@
+MetaFileClass {
+ Name "{5B652C61750A763F}Assets/Props/Military/Camps/PortableDesk_01/Dst/PortableDesk_01_wing_dst_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{55BCC8E2D260A94D}" {
+     SourceMaterial "portabledesk_01_olive_co"
+     AssignedMaterial "{453947F3D7B3C60C}Assets/Props/Military/Camps/PortableDesk_01/Data/portabledesk_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam object_NNN256 {
+    }
+    MeshParam object_NNN369 {
+    }
+    MeshParam object_NNN370 {
+    }
+    MeshParam object_NNN371 {
+    }
+    MeshParam object_NNN372 {
+    }
+    MeshParam object_NNN373 {
+    }
+    MeshParam object_NNN374 {
+    }
+    MeshParam object_NNN375 {
+    }
+    MeshParam object_NNN376 {
+    }
+    MeshParam object_NNN377 {
+    }
+    MeshParam object_NNN378 {
+    }
+    MeshParam object_NNN397 {
+    }
+    MeshParam object_NNN434 {
+    }
+    MeshParam object_NNN435 {
+    }
+    MeshParam object_NNN436 {
+    }
+    MeshParam object_NNN444 {
+    }
+    MeshParam object_NNN445 {
+    }
+    MeshParam object_NNN475 {
+    }
+    MeshParam object_NNN496 {
+    }
+    MeshParam object_NNN507 {
+    }
+    MeshParam object_NNN508 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Component02_LODGeometry {
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_FG_Component02_LODFire_Geometry {
+     SurfaceProperties {
+      "{5EAA7FB0A83F90CF}Common/Materials/Game/plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{55BCB4472C0AAECB}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{55BCB4472C0AADAC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{55BCB4472C0AAD82}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{55BCB4472C0AADD5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+ }
+}

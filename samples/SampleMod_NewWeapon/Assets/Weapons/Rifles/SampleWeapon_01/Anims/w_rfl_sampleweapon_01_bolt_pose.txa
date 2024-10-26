@@ -1,0 +1,32 @@
+$animation "" {
+ #version 1.0
+ #fps 30
+ #numFrames 3
+ $node "w_bolt" {
+  $keys t q {
+   $frame 0 {
+    #t -0 0.0649093 -0.165954
+    #q 0.00000165 0 0 1
+   }
+   $frame 1 {
+    #t -0 0.0649096 -0.2524294
+   }
+   $frame 2 {
+    #t -0 0.0649094 -0.2091917
+   }
+   $frame 3 {
+   }
+  }
+  $node "w_bolt_release" {
+   $keys t q {
+    $frame 0 3 {
+     #q 0.00000166 0 0 1
+    }
+   }
+  }
+ }
+ $custProps {
+  #custProp "profile" "724_Weapon_Bolt"
+  #custProp "sourceFile" "SampleWeapon_01.blend"
+ }
+}

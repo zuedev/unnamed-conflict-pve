@@ -1,0 +1,16 @@
+MatPBRBasic {
+ DiffuseIBL 0.784 0.784 0.784 1
+ SpecularIBL 0.784 0.784 0.784 1
+ Diffuse 0 1 0 1
+ Ambient 0 0 0 1
+ Emissive 0 0.028 0.251 0
+ EmissiveLV 20
+ ZWrite 0
+ Sort overlay
+ CastShadow 0
+ ReceiveShadow 0
+ Specular 0.251 0.502 0 1
+ SpecularMul 5
+ AlphaMul 0.15
+ BlendMode Additive
+}

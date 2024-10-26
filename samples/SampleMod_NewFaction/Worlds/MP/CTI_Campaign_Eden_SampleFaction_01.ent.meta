@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A1750C30B41E4E77}Worlds/MP/CTI_Campaign_Eden_SampleFaction_01_true.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}
