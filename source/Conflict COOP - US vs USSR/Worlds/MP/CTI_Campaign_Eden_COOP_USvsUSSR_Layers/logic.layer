@@ -133,6 +133,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  m_iControlPointsThreshold 36
  m_iSuppliesArrivalInterval 1
  m_iRegularSuppliesIncome 600
+ m_iRegularSuppliesIncomeExtra 0
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 20.291 0 5.837
