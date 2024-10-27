@@ -1,0 +1,8 @@
+GameProject {
+ ID "ConflictCOOPUSvsFIA"
+ GUID "62B66396B548F35F"
+ TITLE "Conflict COOP - US vs FIA"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

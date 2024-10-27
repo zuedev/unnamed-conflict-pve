@@ -1,8 +1,0 @@
-GameProject {
- ID "UnnamedConflictPvE_US"
- GUID "62B54ABA0285EA12"
- TITLE "Unnamed Conflict PvE (US)"
- Dependencies {
-  "58D0FB3206B6F859"
- }
-}
