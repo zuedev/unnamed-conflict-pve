@@ -2,6 +2,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  MilitaryBaseAirfield {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_Airbase"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Airbase-UC"
     m_sMapLocationName "LocationAirport"
@@ -26,6 +27,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  MilitaryBaseVilleneuf {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
     m_sBaseNameUpper "#AR-MapLocation_CalvaryHill"
     m_sMapLocationName "LocationMilitaryBase_AA"
@@ -58,6 +60,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseChotain {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Chotain"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Chotain-UC"
     m_sMapLocationName "LocationChotain"
@@ -70,6 +73,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseDuras {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Durras"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Durras-UC"
     m_sMapLocationName "C_LocationDurras"
@@ -82,6 +86,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseEntre_Deux {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_EntreDeux"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_EntreDeux-UC"
     m_sMapLocationName "LocationEntreDeux"
@@ -94,6 +99,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseFigari {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Figari"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Figari-UC"
     m_sMapLocationName "LocationFigari"
@@ -105,6 +111,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseLaruns {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Laruns"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Laruns-UC"
     m_sMapLocationName "LocationLaruns"
@@ -122,6 +129,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseLe_Moule {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_LeMoule"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_LeMoule-UC"
     m_sMapLocationName "LocationLeMoule"
@@ -140,6 +148,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseLevie {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Levie"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie-UC"
     m_sMapLocationName "LocationLevie"
@@ -157,6 +166,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseMeaux {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Meaux"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Meaux-UC"
     m_sMapLocationName "LocationMeaux"
@@ -174,6 +184,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseMontignac {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Montignac"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
     m_sMapLocationName "LocationMontignac"
@@ -193,6 +204,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseProvins {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Provins"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Provins-UC"
     m_sMapLocationName "C_LocationProvins"
@@ -204,6 +216,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseRegina {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Regina"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
     m_sMapLocationName "C_LocationRegina"
@@ -221,6 +234,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseTyrone {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Tyrone"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Tyrone-UC"
     m_sMapLocationName "C_LocationTyrone"
@@ -238,6 +252,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseVernon {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Vernon"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Vernon-UC"
     m_sMapLocationName "LocationVernon"
@@ -256,6 +271,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseVileneuf {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Villeneuf"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Villeneuf-UC"
     m_sMapLocationName "LocationVilleneuf"
@@ -273,6 +289,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseGravette {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Gravette"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Gravette-UC"
     m_sMapLocationName "LocationGravette"
@@ -290,6 +307,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseMine {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_Quarry"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Quarry-UC"
     m_sMapLocationName "LocationMine"
@@ -301,6 +319,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseBlackLake {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_BlackLake"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_BlackLake-UC"
    }
@@ -313,6 +332,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBasePennantsPass {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_PennantsPass"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_PennantsPass-UC"
    }
@@ -323,6 +343,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseSimonsWood {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_SimonsWood"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_SimonsWood-UC"
    }
@@ -334,6 +355,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseRichemont {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_Richemont"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Richemont-UC"
    }
@@ -350,6 +372,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseShepherds {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_ShepherdsPond"
     m_sBaseNameUpper "#AR-MapLocation_OldWood"
    }
@@ -366,6 +389,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseLake {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_PinewoodLake"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_PinewoodLake-UC"
    }
@@ -388,6 +412,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseTillersFind {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_TillersFind"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_TillersFind-UC"
    }
@@ -398,6 +423,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  TownBaseKermovan {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Kermovan"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_Kermovan-UC"
    }
@@ -415,6 +441,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseMaidensBay {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_MaidensBay"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_MaidensBay-UC"
    }
@@ -431,6 +458,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseHornbeamValley {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-Campaign_MapLocation_HornbeamValley"
     m_sBaseNameUpper "#AR-MapLocation_HornbeamValley"
    }
@@ -441,6 +469,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseAndresBeacon {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_AndresBeacon"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_AndresBeacon-UC"
    }
@@ -452,6 +481,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  SmallBaseGoatbay {
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
     m_sBaseName "#AR-MapLocation_Camurac"
     m_sBaseNameUpper "#AR-Campaign_MapLocation_GoatBay"
    }
