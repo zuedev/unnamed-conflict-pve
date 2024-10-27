@@ -5,7 +5,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  components {
   SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
    m_fLoadoutSpawnSupplyCostMultiplier 1
-   m_eArsenalGameModeType CAMPAIGN
+   m_eArsenalGameModeType UNRESTRICTED
   }
   SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
    m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
