@@ -1,0 +1,308 @@
+RadioManagerEntity {
+ coords 2884.968 91.924 6293.253
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+ }
+ coords 26.726 0 10.962
+ m_iControlPointsThreshold 5
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 10.381 0 11.292
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   FactionKey "FIA"
+   m_bIsPlayable 0
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_FactionLabel FACTION_USSR
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   FactionKey "US"
+   m_sFactionFlag "{46FB2FB2C2125A3C}UI/Textures/Flags/US-flag-base-3it.edds"
+   m_FactionFlagMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
+   m_FactionLabel FACTION_US
+   m_aRanks {
+    SCR_CharacterRank "{528E9D967C251E5F}" {
+    }
+    SCR_CharacterRank "{528E9D967C638136}" {
+    }
+    SCR_CharacterRank "{528E9D967CA0C01E}" {
+    }
+    SCR_CharacterRank "{528E9D967C9A9530}" {
+    }
+    SCR_CharacterRank "{528E9D967CD71D35}" {
+    }
+    SCR_CharacterRank "{528E9D967D0F747E}" {
+    }
+    SCR_CharacterRank "{528E9D967D8EBCCC}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" {
+    }
+    SCR_EntityCatalog "{5C68A0EEB7DB3E84}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+    }
+    SCR_EntityCatalog "{5C9EDDD37394AD40}" {
+    }
+   }
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C90D92F493E764B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F49F79967}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F482DA59B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F483330D2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48170DA8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F487834E8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48410A86}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48A4E31F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F488C6B57}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F4896F764}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48FBD90E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48DFF562}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7724C851}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77097F3F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77102B55}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F777ABD04}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F775EBBC1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77A28EB6}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77871C23}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77EB96A0}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77CC2518}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77D3715B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7635D418}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F761C3FF2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7660CFAA}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F764A6E6B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76AD4D35}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76B1EF3A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7695FF2F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76FF94B1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76C68EED}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F752A9F29}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F750E6FB9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7517240F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7574D867}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F755C4871}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75A0502B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F758ABFD3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75EF8263}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75F0F224}" {
+    }
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   FactionKey "USSR"
+   FactionColor 0.855 0.031 0.028 1
+   m_iOrder 1000
+   m_OutlineFactionColor 0.168 0.006 0.007 1
+   m_NotificationFactionColor 0.855 0.031 0.028 1
+   m_NotificationTextFactionColor 0.521 0.021 0.019 1
+   m_sFactionFlag "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
+   m_FactionFlagMaterial "{D33A1334B4A3369D}Assets/Props/Fabric/Flags/Data/Flag_1_2_USSR.emat"
+   m_FactionLabel FACTION_USSR
+   m_sFactionRadioEncryptionKey "coldBorscht"
+   m_iFactionRadioFrequency 42000
+   m_aRanks {
+    SCR_CharacterRank "{528E9D9FAAB617C6}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB192253}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB87F519}" {
+    }
+    SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+    }
+    SCR_CharacterRank "{528E9D9FA563C005}" {
+    }
+    SCR_CharacterRank "{528E9D9FA64A043C}" {
+    }
+    SCR_CharacterRank "{528E9D9FA77F696E}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9B9AA3C2D}" {
+    }
+    SCR_EntityCatalog "{5C68A0E9A51460AB}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+    }
+    SCR_EntityCatalog "{5C9EDDD378BA3298}" {
+    }
+   }
+   m_sGroupFlagsImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+   m_sGroupFlagsImageSetOutlines "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+   m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C9108F95F3FB520}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F0034DB}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F6514E7}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F4EE8BF}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F5021F9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FBA4C89}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F9C00A9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FE17E10}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FCBA475}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E2B2963}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E3040F5}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E17C67D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E797F8A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E431F83}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EA7F87E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E88C6B9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EEDE322}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EF6244A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EDAF04A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D3CCF27}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D076483}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D68D0F3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D4C0F8E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D56EEEE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95DBA92EE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C69680D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C4FD930}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C5255FD}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CB621AE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C9545BC}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CFE26C3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CDD263C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B27128C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B08D83D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B6D3FC2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B712949}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B57D185}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BB17114}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B97C054}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BFC33E5}" {
+    }
+   }
+   m_DefendersGroupPrefab "{359353A0A5A52216}Prefabs/Groups/Campaign/Group_USSR_Defenders.et"
+   m_aStartingVehicles {
+    "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+   }
+   m_MobileHQPrefab "{E171C9F443958371}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast.et"
+   m_RadioPrefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+   m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
+   m_BaseBuildingSupplyDepot ""
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords -0.018 0 0.077
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 20.724 0 7.936
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 27.209 0 10.918
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Base.et" {
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+  }
+ }
+}
