@@ -1,0 +1,430 @@
+RadioManagerEntity {
+ coords 2884.968 91.924 6293.253
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_ArsenalManagerComponent "{6120A34EB1E9BBEF}" {
+   m_fLoadoutSpawnSupplyCostMultiplier 1
+   m_eArsenalGameModeType CAMPAIGN
+  }
+  SCR_CampaignBuildingManagerComponent "{5C6878C4C62529D2}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_bSameFactionDisassembleOnly 1
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+  }
+  SCR_CommandingManagerComponent "{5D16783AFAE684F8}" {
+   m_sCommandsConfigPath "{54764D4E706F348C}Configs/Commanding/Commands.conf"
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 1
+  }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_GameOverScreenConfig SCR_GameOverScreenConfig "{56DEC6462FFDD82D}" {
+    m_aGameOverScreens {
+     SCR_FactionGameOverScreenInfo "{568E79DBAC19013D}" {
+      m_OptionalParams SCR_BaseGameOverScreenInfoOptional "{568E79DBB3E97D11}" {
+       m_sDebriefing "#AR-Campaign_MatchResult_DefeatDetail_Score"
+      }
+     }
+    }
+   }
+  }
+  SCR_MapConfigComponent "{5C669498E250A34B}" {
+   m_sSpawnMapConfigPath "{901F9ED2088BBCA4}Configs/Map/MapSpawnConflict.conf"
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{09F7AAA14A642683}Configs/NameTags/NametagFriendlies.conf"
+  }
+  SCR_PlayerSpawnPointManagerComponent "{5CDABA98894199D0}" {
+   m_SpawnPointPrefab "{6FC8BA123C919DB3}Prefabs/MP/PlayerRadioSpawnPointCampaign.et"
+   m_bEnablePlayerSpawnPoints 0
+  }
+  SCR_RespawnBriefingComponent "{5B2A94A3CF791D6F}" {
+   m_sJournalConfigPath "{FFB1A12A7BFC4957}Configs/Journal/JournalConflict.conf"
+   m_Info SCR_UIInfo "{5B2A94A66BB56FB3}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+   m_aGameModeHints {
+    SCR_UIInfo "{5B2A94A72CAF0E18}" {
+     Name "#AR-BriefingCampaign_Hint_Name_01"
+     Description "#AR-BriefingCampaign_Hint_Description_01"
+     Icon "{324E923535DCACF8}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_1_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A72AB20D65}" {
+     Name "#AR-BriefingCampaign_Hint_Name_02"
+     Description "#AR-BriefingCampaign_Hint_Description_02"
+     Icon "{3C50D67D082BA322}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_2_UI.edds"
+    }
+    SCR_UIInfo "{5B2A94A729D6B272}" {
+     Name "#AR-BriefingCampaign_Hint_Name_03"
+     Description "#AR-BriefingCampaign_Hint_Description_03"
+     Icon "{39A515BAE3795994}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_3_UI.edds"
+    }
+   }
+   m_aWinConditions {
+    SCR_BriefingVictoryCondition "{5B2A94A7531ADD24}" {
+     victoryCondition SEIZE
+     name "Condition_01"
+     description "#AR-BriefingCampaign_VictoryCondition_01"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A752415E44}" {
+     victoryCondition GUARD
+     name "Condition_02"
+     description "#AR-BriefingCampaign_VictoryCondition_02"
+    }
+    SCR_BriefingVictoryCondition "{5B2A94A75295460F}" {
+     victoryCondition SEIZE_RELAY
+     name "Condition_03"
+     description "#AR-BriefingCampaign_VictoryCondition_03"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{5CEAA65B714D5CFF}" {
+   }
+  }
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   m_Struct SCR_MissionStruct "{5C6E86B1D6F0EC89}" {
+    m_Struct0 SCR_CampaignStruct "{5C6E86B1D41E4E2F}" {
+    }
+    m_Struct1 SCR_EditorStruct "{5E2C9BB6F87D9794}" {
+     m_AttributeList SCR_EditorAttributeList "{5E2C9BB656E63FCF}" : "{F3D6C6D25642352C}Configs/Editor/AttributeLists/Edit.conf" {
+     }
+     m_bSaveFactions 0
+     m_bSaveMissionAttributes 0
+     m_eRequiredEntityFlags LINKED_CHILDREN
+    }
+    m_Struct2 SCR_EditorStruct "{604AE588166D0165}" {
+     m_AttributeList SCR_EditorAttributeList "{604AFD87084A5DB6}" {
+     }
+     m_bSaveFactions 0
+     m_bSaveMissionAttributes 0
+     m_eRequiredEntityFlags FREE_ROAM_BUILDING_AI
+    }
+   }
+   m_iAutosavePeriod 120
+  }
+  SCR_SpawnProtectionComponent "{5D167A246026C95B}" {
+   m_fProtectionTime 5
+  }
+  SCR_TimeAndWeatherHandlerComponent "{5CC49B5A1313B84E}" {
+   m_bRandomStartingDaytime 1
+   m_fDayTimeAcceleration 4
+   m_fNightTimeAcceleration 12
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+   m_bAllowHeaderSettings 1
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "#AR-Campaign_ScenarioName_Everon"
+  }
+  SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
+   m_sXPRewardsConfig "{8227B4636C73C5B5}Configs/Campaign/CampaignXPRewards.conf"
+  }
+ }
+ coords 26.726 0 10.962
+ m_iControlPointsThreshold 36
+ m_iSuppliesArrivalInterval 1
+ m_iRegularSuppliesIncome 600
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 20.291 0 5.837
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 10.381 0 11.292
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   FactionKey "FIA"
+   m_bIsPlayable 0
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_FactionLabel FACTION_USSR
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   FactionKey "US"
+   m_sFactionFlag "{46FB2FB2C2125A3C}UI/Textures/Flags/US-flag-base-3it.edds"
+   m_FactionFlagMaterial "{610803CC3F3D6649}Assets/Props/Fabric/Flags/Data/Flag_1_2_USA.emat"
+   m_FactionLabel FACTION_US
+   m_aRanks {
+    SCR_CharacterRank "{528E9D967C251E5F}" {
+    }
+    SCR_CharacterRank "{528E9D967C638136}" {
+    }
+    SCR_CharacterRank "{528E9D967CA0C01E}" {
+    }
+    SCR_CharacterRank "{528E9D967C9A9530}" {
+    }
+    SCR_CharacterRank "{528E9D967CD71D35}" {
+    }
+    SCR_CharacterRank "{528E9D967D0F747E}" {
+    }
+    SCR_CharacterRank "{528E9D967D8EBCCC}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EE8B97CA50}" {
+    }
+    SCR_EntityCatalog "{5C68A0EEB7DB3E84}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+    }
+    SCR_EntityCatalog "{5C9EDDD37394AD40}" {
+    }
+   }
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C90D92F493E764B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F49F79967}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F482DA59B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F483330D2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48170DA8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F487834E8}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48410A86}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48A4E31F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F488C6B57}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F4896F764}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48FBD90E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F48DFF562}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7724C851}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77097F3F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77102B55}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F777ABD04}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F775EBBC1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77A28EB6}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77871C23}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77EB96A0}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77CC2518}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F77D3715B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7635D418}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F761C3FF2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7660CFAA}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F764A6E6B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76AD4D35}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76B1EF3A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7695FF2F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76FF94B1}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F76C68EED}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F752A9F29}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F750E6FB9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7517240F}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F7574D867}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F755C4871}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75A0502B}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F758ABFD3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75EF8263}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C90D92F75F0F224}" {
+    }
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   FactionKey "USSR"
+   FactionColor 0.855 0.031 0.028 1
+   m_iOrder 1000
+   m_OutlineFactionColor 0.168 0.006 0.007 1
+   m_NotificationFactionColor 0.855 0.031 0.028 1
+   m_NotificationTextFactionColor 0.521 0.021 0.019 1
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_sFactionFlag "{50824EB9F2C215AB}UI/Textures/Flags/USSR-flag-base-3it.edds"
+   m_FactionFlagMaterial "{D33A1334B4A3369D}Assets/Props/Fabric/Flags/Data/Flag_1_2_USSR.emat"
+   m_FactionLabel FACTION_USSR
+   m_sFactionRadioEncryptionKey "coldBorscht"
+   m_iFactionRadioFrequency 42000
+   m_aRanks {
+    SCR_CharacterRank "{528E9D9FAAB617C6}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB192253}" {
+    }
+    SCR_CharacterRank "{528E9D9FAB87F519}" {
+    }
+    SCR_CharacterRank "{528E9D9FA4EA5C39}" {
+    }
+    SCR_CharacterRank "{528E9D9FA563C005}" {
+    }
+    SCR_CharacterRank "{528E9D9FA64A043C}" {
+    }
+    SCR_CharacterRank "{528E9D9FA77F696E}" {
+    }
+   }
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+    }
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9B9AA3C2D}" {
+    }
+    SCR_EntityCatalog "{5C68A0E9A51460AB}" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+    }
+    SCR_EntityCatalog "{5C9EDDD378BA3298}" {
+    }
+   }
+   m_sGroupFlagsImageSet "{7CD99D22C7AE8195}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor.imageset"
+   m_sGroupFlagsImageSetOutlines "{B9356E7B2E974DCD}UI/Textures/GroupManagement/FlagIcons/GroupFlagsOpfor-outline.imageset"
+   m_sFactionBackground "{21533F2089005056}UI/Textures/DeployMenu/Loadout-BG/Loadout_BG_USSR.imageset"
+   m_aBaseCallsigns {
+    SCR_MilitaryBaseCallsign "{5C9108F95F3FB520}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F0034DB}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F6514E7}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F4EE8BF}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F5021F9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FBA4C89}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95F9C00A9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FE17E10}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95FCBA475}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E2B2963}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E3040F5}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E17C67D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E797F8A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E431F83}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EA7F87E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95E88C6B9}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EEDE322}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EF6244A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95EDAF04A}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D3CCF27}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D076483}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D68D0F3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D4C0F8E}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95D56EEEE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95DBA92EE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C69680D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C4FD930}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C5255FD}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CB621AE}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95C9545BC}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CFE26C3}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95CDD263C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B27128C}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B08D83D}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B6D3FC2}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B712949}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B57D185}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BB17114}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95B97C054}" {
+    }
+    SCR_MilitaryBaseCallsign "{5C9108F95BFC33E5}" {
+    }
+   }
+   m_DefendersGroupPrefab "{359353A0A5A52216}Prefabs/Groups/Campaign/Group_USSR_Defenders.et"
+   m_aStartingVehicles {
+    "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et" "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+   }
+   m_MobileHQPrefab "{E171C9F443958371}Prefabs/MP/Campaign/Assets/CampaignMobileAssemblyEast.et"
+   m_RadioPrefab "{54C68E438DD34265}Prefabs/Items/Equipment/Radios/Radio_R107M.et"
+   m_BaseBuildingHQ "{847605BB95F1F066}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_USSR_01.et"
+   m_BaseBuildingSupplyDepot ""
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords -0.018 0 0.077
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{52EF3E2AF2E07544}" {
+ }
+}
+SCR_MapLocator {
+ coords 10434.78 0 1142.689
+ m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ }
+}
+SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager.et" {
+ coords 20.724 0 7.936
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 27.209 0 10.918
+}
+MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Base.et" {
+}
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+  }
+ }
+}
