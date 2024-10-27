@@ -1,6 +1,6 @@
 GameProject {
  ID "UnnamedConflictPvE_USSR"
- GUID "62B54ABA0285EA12"
+ GUID "62B54ABA0285EA13"
  TITLE "Unnamed Conflict PvE (USSR)"
  Dependencies {
   "58D0FB3206B6F859"
